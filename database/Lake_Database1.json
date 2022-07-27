@@ -1,0 +1,25 @@
+{
+	"name": "Lake_Database1",
+	"properties": {
+		"Name": "Lake_Database1",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://forsynapse@rakeshstorage2.dfs.core.windows.net/Lake_Database1",
+			"Properties": {
+				"FormatType": "csv",
+				"LinkedServiceName": "rakeshsynapse-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "315092fb-34ca-4e9e-9427-c5c13659bad6"
+	},
+	"type": "DATABASE"
+}
