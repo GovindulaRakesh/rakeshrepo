@@ -3,7 +3,7 @@
 	"type": "Microsoft.Synapse/workspaces/linkedservices",
 	"properties": {
 		"typeProperties": {
-			"url": "https://rakeshstorage2.dfs.core.windows.net"
+			"url": "https://rakeshgen2.dfs.core.windows.net"
 		},
 		"type": "AzureBlobFS",
 		"connectVia": {
